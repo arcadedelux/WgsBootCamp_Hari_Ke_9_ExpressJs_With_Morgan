@@ -10,7 +10,7 @@ const port =3000
 app.use(morgan('dev'))
 //Kode untuk menggunakan view engine ejs dengan perintah render
 app.set('view engine','ejs')
-//Kode untuk menggunakan depedency expresslayout
+//Kode untuk menggunakan depedency express layout
 app.use(expressLayouts);
 //Kode Untuk Menampilkan fil2 seperti image di express js dan membuat folder public 
 app.use(express.static('public'));
